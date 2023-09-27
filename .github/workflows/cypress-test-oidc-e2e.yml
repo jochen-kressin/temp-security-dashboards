@@ -1,7 +1,5 @@
-name: Snapshot based E2E OIDC tests workflow
-on:
-  pull_request:
-    branches: [ '**' ]
+name: TEMP Snapshot based E2E OIDC tests workflow
+on: [push, pull_request]
 env:
   OPENSEARCH_VERSION: '3.0.0'
   KEYCLOAK_VERSION: '21.0.1'
